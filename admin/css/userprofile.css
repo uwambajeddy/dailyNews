@@ -1,0 +1,28 @@
+.container {
+  flex: 1;
+}
+
+.userprofile {
+  text-align: center;
+}
+.userprofile p {
+  text-align: start;
+  margin: 10px 0px 0px 0px;
+}
+
+.userprofile img {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
+}
+
+.createUpdate {
+  height: 500px;
+  overflow-y: scroll;
+}
+.updateCreate2 {
+  height: 500px;
+  overflow: scroll;
+}

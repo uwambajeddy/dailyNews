@@ -1,0 +1,22 @@
+.flex-content p {
+  background: none;
+  box-shadow: none;
+  padding: 0px 5px 0px 0px;
+}
+
+.flex-content h3,
+.content {
+  text-align: start;
+}
+
+@media screen and (max-width: 925px) {
+  .container .flex-content {
+    display: block;
+  }
+  .container .blog .topic {
+    display: block;
+  }
+  .container .blog .topic p {
+    padding-top: 10px;
+  }
+} ;

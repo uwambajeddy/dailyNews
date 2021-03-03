@@ -1,0 +1,235 @@
+.overflow {
+  overflow-x: scroll;
+}
+
+.logo {
+  flex: 3;
+}
+.navlist {
+  flex: 1;
+}
+.username {
+  display: none;
+}
+
+table tbody tr td {
+  text-align: center;
+}
+.blog table tbody tr td img {
+  border-radius: 0;
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+table tbody tr {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+table tbody {
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.493)
+  );
+}
+
+table tbody tr td a,
+table tbody tr td button {
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+}
+
+.flex-content {
+  display: flex;
+  text-align: right;
+}
+
+.flex-content h2 {
+  flex: 1;
+  text-align: left;
+  font-size: 40px;
+}
+.flex-content p {
+  padding: 10px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.493)
+  );
+
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+}
+.flex-content p button {
+  background: none;
+  font-size: 20px;
+  border: none;
+}
+.flex-content p button:focus,
+table tbody tr td button:focus {
+  outline: none;
+}
+.flex-content p button:hover,
+table tbody tr td button:hover {
+  cursor: pointer;
+}
+
+/********update & add post********/
+
+.updateCreate form {
+  border: none;
+  padding-top: 20px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px 50px 0px 50px;
+}
+
+.updateCreate form h1 {
+  padding-bottom: 5px;
+}
+
+.updateCreate form input,
+.updateCreate form button,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.updateCreate form button {
+  border: none;
+  color: white;
+  background-color: #426797;
+}
+.updateCreate form button:hover {
+  cursor: pointer;
+}
+
+.updateCreate h3 {
+  text-align: center;
+}
+
+.updateCreate {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.493)
+  );
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.349);
+  z-index: 8;
+}
+
+.overlay-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 6;
+}
+.createUpdate form {
+  border: none;
+  padding-top: 20px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px 50px 0px 50px;
+}
+
+.createUpdate form h1 {
+  padding-bottom: 5px;
+}
+
+.createUpdate form input,
+textarea,
+.createUpdate form button,
+select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.createUpdate form button {
+  border: none;
+  color: white;
+  background-color: #426797;
+}
+.createUpdate form button:hover {
+  cursor: pointer;
+}
+
+.createUpdate h3 {
+  text-align: center;
+}
+
+.createUpdate {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.493)
+  );
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.349);
+  z-index: 8;
+}
+
+.close-button1 {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 2.5rem;
+  color: #426797;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 2.5rem;
+  color: #426797;
+  cursor: pointer;
+  border: none;
+  border-radius: 80%;
+  background: none;
+  overflow: hidden;
+}
+
+.none {
+  background: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 925px) {
+  .username {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+  }
+}
